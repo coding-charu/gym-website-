@@ -1,0 +1,119 @@
+*
+{
+font-family: Ubuntu sans-serif;
+padding: 0;
+margin: 0;
+
+}
+
+.container{
+/*max-width: 80vw;*/
+/*background-color: red;*/
+margin: 20px 0px 70px 70px;
+display: flex;
+flex-direction:column;
+
+justify-content: space-between;
+}
+.container > div{
+margin-top: 220px;
+}
+
+/*navbar*/
+.bar{
+display: flex;
+flex-direction: row;
+position: sticky;
+
+}
+
+.navbar{
+display: flex;
+flex-direction: row;
+list-style:none;
+margin-left: 790px;
+
+}
+.navbar li{
+margin:2px 2px 10px 18px;
+}
+#headertitle{
+color:red;
+opacity:0.6;
+}
+.joinnow_button
+{
+background-color: red;
+opacity:0.7;
+color:white;
+padding: 5px;
+border-radius: 5px;
+}
+#gym_guy{
+height:738px;
+width:466px;
+}
+#main{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items:center;
+}
+#main_left{
+width:50%;
+padding: 20px;
+justify-content: center;
+/*/*display: flex;
+flex-direction: column;
+margin: 5px;*/
+ padding-left: 13px;
+padding-right: 13px;
+}
+#dumbell, #a, #b, #c{
+margin-bottom: 20px;
+}
+#buttons{
+margin-top: 10px;
+}
+
+#pricingheading{
+text-align: center;
+margin-top: 26px;
+margin-bottom: 26px;
+}
+
+/*cost plans*/
+
+.cost{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width:80vw;
+
+}
+
+
+
+.costa{
+border: 3px solid black;
+width:200px;
+border-radius: 8px;
+padding: 5px;
+}
+.free{
+list-style: none;
+margin: 8px;
+text-align: center;
+}
+.button{
+background-color: red;
+color:white;
+opacity:0.8;
+border-radius: 8px;
+width:auto;
+padding: 4px;
+}
+.title{
+font-size: 25px;
+font-weight: bold;
+}
